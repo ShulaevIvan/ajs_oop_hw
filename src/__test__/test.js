@@ -1,4 +1,4 @@
-/* eslint-disable react/destructuring-assignment */
+/* eslint-disable no-new */
 import Character from '../js/character.js';
 import Bowerman from '../js/bowerman.js';
 import Deamon from '../js/deamon.js';
