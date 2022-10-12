@@ -17,8 +17,8 @@ test('test character class', () => {
   expect(name).toBe('test');
   expect(level).toBe(1);
   expect(health).toBe(100);
-  expect(attack).toBe(0);
-  expect(defence).toBe(0);
+  expect(attack).toBe(undefined);
+  expect(defence).toBe(undefined);
 });
 test('Test err length exept', () => {
   const errCatch = () => {

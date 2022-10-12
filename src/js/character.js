@@ -4,8 +4,8 @@ export default class Character {
     this.type = this.constructor.name;
     this.level = 1;
     this.health = 100;
-    this.attack = 0;
-    this.defence = 0;
+    this.attack = undefined;
+    this.defence = undefined;
     if (this.name.length <= 2 || this.name.length >= 10 || !this.name) {
       throw new Error('Error by name length');
     }
